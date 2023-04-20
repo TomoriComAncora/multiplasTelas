@@ -27,9 +27,9 @@
     <EditText
         android:id="@+id/edit_email"
         style="@style/Edit_Text"
-        android:hint="@string/email"
-        android:drawableRight="@drawable/ic_email"
-        android:inputType="textEmailAddress"
+        android:hint="@string/usuario"
+        android:drawableRight="@drawable/ic_usua"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="@id/container_login"
         app:layout_constraintTop_toTopOf="@id/container_login"
         app:layout_constraintEnd_toEndOf="@id/container_login"

@@ -40,4 +40,11 @@
         <item name="android:layout_marginTop">20dp</item>
         <item name="android:maxLength">30</item>
     </style>
+
+    <style name="containerCampo_cadastro">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">600dp</item>
+        <item name="android:background">@drawable/container_componentes</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
 </resources>

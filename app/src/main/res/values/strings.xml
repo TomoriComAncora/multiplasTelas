@@ -5,7 +5,14 @@
     <string name="btCadastrar">Cadastrar</string>
     <string name="btSobre">Sobre</string>
     <string name="txt_login">Logar</string>
-    <string name="email">Email</string>
+    <string name="usuario">Usuário</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
+    <string name="txt_cadastro">Cadastre-se</string>
+    <string name="nome_cadast">Nome Completo</string>
+    <string name="sexo_cadast">Sexo</string>
+    <string name="nasci_cadast">Data de Nascimento</string>
+    <string name="telef_cadast">Telefone</string>
+    <string name="usuario_cadast">Nome de Usuário</string>
+    <string name="senha_cadast">Crie uma Senha</string>
 </resources>
