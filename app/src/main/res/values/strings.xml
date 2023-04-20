@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Atividade</string>
+    <string name="telaPrinci">UFMS JOGOS</string>
+    <string name="btLogin">Login</string>
+    <string name="btCadastrar">Cadastrar</string>
+    <string name="btSobre">Sobre</string>
+    <string name="txt_login">Logar</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+</resources>
