@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Atividade"
         tools:targetApi="31">
         <activity
+            android:name=".Sobre"
+            android:exported="false" />
+        <activity
             android:name=".cadastro"
             android:exported="false" />
         <activity

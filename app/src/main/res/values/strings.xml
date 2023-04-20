@@ -15,4 +15,8 @@
     <string name="telef_cadast">Telefone</string>
     <string name="usuario_cadast">Nome de Usuário</string>
     <string name="senha_cadast">Crie uma Senha</string>
+    <string name="txt_sobre">Sobre</string>
+    <string name="alunos">Fabricio Gomes e Lucas Fernando</string>
+    <string name="rga"></string>
+    <string name="diciplina">7 semestre de PPDM</string>
 </resources>

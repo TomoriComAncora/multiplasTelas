@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    tools:context=".Sobre">
+
+    <TextView
+        android:id="@+id/txt_sobre"
+        style="@style/titulo_cadastro"
+        android:text="@string/txt_sobre"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <View
+        android:id="@+id/container_sobre"
+        style="@style/containerCampo"
+        app:layout_constraintTop_toBottomOf="@id/txt_sobre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/sobre"
+        android:text="Desenvolvedores:"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="27sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintTop_toTopOf="@id/container_sobre"
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintEnd_toEndOf="@id/container_sobre"
+        />
+
+    <TextView
+        android:id="@+id/info_sobre"
+        android:text="@string/alunos"
+        style="@style/txt_sobre"
+        app:layout_constraintTop_toBottomOf="@id/sobre"
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintEnd_toEndOf="@id/container_sobre"
+        />
+
+    <TextView
+        android:id="@+id/info_rga"
+        android:text="************ - 202005710307"
+        style="@style/txt_sobre"
+        app:layout_constraintTop_toBottomOf="@id/info_sobre"
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintEnd_toEndOf="@id/container_sobre"
+        />
+
+    <TextView
+        android:id="@+id/info_materia"
+        android:text="@string/diciplina"
+        style="@style/txt_sobre"
+        app:layout_constraintTop_toBottomOf="@id/info_rga"
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintEnd_toEndOf="@id/container_sobre"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/botao"
+        app:layout_constraintTop_toBottomOf="@id/info_materia"
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintEnd_toEndOf="@id/container_sobre"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
