@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class principal extends AppCompatActivity {
 
-    private Button bt_login, bt_cadastro;
+    private Button bt_login, bt_cadastro, bt_sobre;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +34,19 @@ public class principal extends AppCompatActivity {
                 startActivity(in2);
             }
         });
+
+        bt_sobre.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in3 = new Intent(principal.this, Sobre.class);
+                startActivity(in3);
+            }
+        });
     }
 
     private void iniciarComponentes(){
         bt_login = findViewById(R.id.btLogin);
         bt_cadastro = findViewById(R.id.btCadastrar);
+        bt_sobre = findViewById(R.id.btSobre);
     }
 }

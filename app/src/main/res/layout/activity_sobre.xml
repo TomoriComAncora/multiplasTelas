@@ -50,7 +50,7 @@
 
     <TextView
         android:id="@+id/info_rga"
-        android:text="************ - 202005710307"
+        android:text="@string/rga"
         style="@style/txt_sobre"
         app:layout_constraintTop_toBottomOf="@id/info_sobre"
         app:layout_constraintStart_toStartOf="@id/container_sobre"
@@ -66,9 +66,21 @@
         app:layout_constraintEnd_toEndOf="@id/container_sobre"
         />
 
-    <androidx.appcompat.widget.AppCompatButton
-        style="@style/botao"
+    <TextView
+        android:id="@+id/pix"
+        android:text="@string/pix"
+        style="@style/txt_sobre"
         app:layout_constraintTop_toBottomOf="@id/info_materia"
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintEnd_toEndOf="@id/container_sobre"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/redi_ufms"
+        style="@style/botao"
+        android:text="@string/redirecionar"
+        android:drawableLeft="@drawable/ic_ufms"
+        app:layout_constraintTop_toBottomOf="@id/pix"
         app:layout_constraintStart_toStartOf="@id/container_sobre"
         app:layout_constraintEnd_toEndOf="@id/container_sobre"
         />

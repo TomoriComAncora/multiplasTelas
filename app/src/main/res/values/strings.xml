@@ -17,6 +17,8 @@
     <string name="senha_cadast">Crie uma Senha</string>
     <string name="txt_sobre">Sobre</string>
     <string name="alunos">Fabricio Gomes e Lucas Fernando</string>
-    <string name="rga"></string>
+    <string name="rga">202005710048 - 202005710307</string>
     <string name="diciplina">7 semestre de PPDM</string>
+    <string name="redirecionar">UFMS</string>
+    <string name="pix">PIX:064.017.581-39 e 039.377.541-05</string>
 </resources>
