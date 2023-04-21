@@ -11,85 +11,77 @@
         android:id="@+id/txt_cadastro"
         style="@style/titulo_cadastro"
         android:text="@string/txt_cadastro"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/container_cadastro"
         style="@style/containerCampo_cadastro"
-        app:layout_constraintTop_toBottomOf="@id/txt_cadastro"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_cadastro" />
 
     <EditText
         android:id="@+id/nome_cadast"
         style="@style/Edit_Text"
         android:hint="@string/nome_cadast"
         android:inputType="text"
-        app:layout_constraintTop_toTopOf="@id/container_cadastro"
-        app:layout_constraintStart_toStartOf="@id/container_cadastro"
         app:layout_constraintEnd_toEndOf="@id/container_cadastro"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_cadastro"
+        app:layout_constraintTop_toTopOf="@id/container_cadastro" />
 
     <EditText
         android:id="@+id/sexo_cadast"
         style="@style/Edit_Text"
         android:hint="@string/sexo_cadast"
         android:inputType="text"
-        app:layout_constraintTop_toBottomOf="@id/nome_cadast"
-        app:layout_constraintStart_toStartOf="@id/container_cadastro"
         app:layout_constraintEnd_toEndOf="@id/container_cadastro"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_cadastro"
+        app:layout_constraintTop_toBottomOf="@id/nome_cadast" />
 
     <EditText
         android:id="@+id/nasci_cadast"
         style="@style/Edit_Text"
         android:hint="@string/nasci_cadast"
         android:inputType="date"
-        app:layout_constraintTop_toBottomOf="@id/sexo_cadast"
-        app:layout_constraintStart_toStartOf="@id/container_cadastro"
         app:layout_constraintEnd_toEndOf="@id/container_cadastro"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_cadastro"
+        app:layout_constraintTop_toBottomOf="@id/sexo_cadast" />
 
     <EditText
         android:id="@+id/telef_cadast"
         style="@style/Edit_Text"
         android:hint="@string/telef_cadast"
         android:inputType="phone"
-        app:layout_constraintTop_toBottomOf="@id/nasci_cadast"
-        app:layout_constraintStart_toStartOf="@id/container_cadastro"
         app:layout_constraintEnd_toEndOf="@id/container_cadastro"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_cadastro"
+        app:layout_constraintTop_toBottomOf="@id/nasci_cadast" />
 
     <EditText
         android:id="@+id/usuario_cadast"
         style="@style/Edit_Text"
         android:hint="@string/usuario_cadast"
         android:inputType="text"
-        app:layout_constraintTop_toBottomOf="@id/telef_cadast"
-        app:layout_constraintStart_toStartOf="@id/container_cadastro"
         app:layout_constraintEnd_toEndOf="@id/container_cadastro"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_cadastro"
+        app:layout_constraintTop_toBottomOf="@id/telef_cadast" />
 
     <EditText
         android:id="@+id/senha_cadast"
         style="@style/Edit_Text"
         android:hint="@string/senha_cadast"
         android:inputType="textPassword"
-        app:layout_constraintTop_toBottomOf="@id/usuario_cadast"
-        app:layout_constraintStart_toStartOf="@id/container_cadastro"
         app:layout_constraintEnd_toEndOf="@id/container_cadastro"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_cadastro"
+        app:layout_constraintTop_toBottomOf="@id/usuario_cadast" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_cadasto"
         style="@style/botao"
-        android:text="@string/entrar"
-        app:layout_constraintTop_toBottomOf="@id/senha_cadast"
-        app:layout_constraintStart_toStartOf="@id/container_cadastro"
+        android:text="@string/btCadastrar"
         app:layout_constraintEnd_toEndOf="@id/container_cadastro"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_cadastro"
+        app:layout_constraintTop_toBottomOf="@id/senha_cadast" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

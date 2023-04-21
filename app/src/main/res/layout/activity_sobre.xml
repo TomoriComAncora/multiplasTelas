@@ -11,77 +11,69 @@
         android:id="@+id/txt_sobre"
         style="@style/titulo_cadastro"
         android:text="@string/txt_sobre"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/container_sobre"
         style="@style/containerCampo"
-        app:layout_constraintTop_toBottomOf="@id/txt_sobre"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_sobre" />
 
     <TextView
         android:id="@+id/sobre"
-        android:text="Desenvolvedores:"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:textSize="27sp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="30dp"
-        app:layout_constraintTop_toTopOf="@id/container_sobre"
-        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        android:text="Desenvolvedores:"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@id/container_sobre"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintTop_toTopOf="@id/container_sobre" />
 
     <TextView
         android:id="@+id/info_sobre"
-        android:text="@string/alunos"
         style="@style/txt_sobre"
-        app:layout_constraintTop_toBottomOf="@id/sobre"
-        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        android:text="@string/alunos"
         app:layout_constraintEnd_toEndOf="@id/container_sobre"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintTop_toBottomOf="@id/sobre" />
 
     <TextView
         android:id="@+id/info_rga"
-        android:text="@string/rga"
         style="@style/txt_sobre"
-        app:layout_constraintTop_toBottomOf="@id/info_sobre"
-        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        android:text="@string/rga"
         app:layout_constraintEnd_toEndOf="@id/container_sobre"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintTop_toBottomOf="@id/info_sobre" />
 
     <TextView
         android:id="@+id/info_materia"
-        android:text="@string/diciplina"
         style="@style/txt_sobre"
-        app:layout_constraintTop_toBottomOf="@id/info_rga"
-        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        android:text="@string/diciplina"
         app:layout_constraintEnd_toEndOf="@id/container_sobre"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintTop_toBottomOf="@id/info_rga" />
 
     <TextView
         android:id="@+id/pix"
-        android:text="@string/pix"
         style="@style/txt_sobre"
-        app:layout_constraintTop_toBottomOf="@id/info_materia"
-        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        android:text="@string/pix"
         app:layout_constraintEnd_toEndOf="@id/container_sobre"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintTop_toBottomOf="@id/info_materia" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/redi_ufms"
         style="@style/botao"
-        android:text="@string/redirecionar"
         android:drawableLeft="@drawable/ic_ufms"
-        app:layout_constraintTop_toBottomOf="@id/pix"
-        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        android:text="@string/redirecionar"
         app:layout_constraintEnd_toEndOf="@id/container_sobre"
-        />
+        app:layout_constraintStart_toStartOf="@id/container_sobre"
+        app:layout_constraintTop_toBottomOf="@id/pix" />
 </androidx.constraintlayout.widget.ConstraintLayout>

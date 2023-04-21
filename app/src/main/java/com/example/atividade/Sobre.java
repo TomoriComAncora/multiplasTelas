@@ -19,16 +19,21 @@ public class Sobre extends AppCompatActivity {
 
         getSupportActionBar().hide();
         iniciarComponente();
+        irUfms();
 
+
+    }
+
+    private void iniciarComponente() {
+        bt_ufms = findViewById(R.id.redi_ufms);
+    }
+
+    private void irUfms() {
         bt_ufms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://cpan.ufms.br/")));
             }
         });
-
-    }
-    private void iniciarComponente(){
-        bt_ufms = findViewById(R.id.redi_ufms);
     }
 }

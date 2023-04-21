@@ -18,7 +18,18 @@ public class principal extends AppCompatActivity {
 
         getSupportActionBar().hide();
         iniciarComponentes();
+        telas();
 
+
+    }
+
+    private void iniciarComponentes() {
+        bt_login = findViewById(R.id.btLogin);
+        bt_cadastro = findViewById(R.id.btCadastrar);
+        bt_sobre = findViewById(R.id.btSobre);
+    }
+
+    private void telas() {
         bt_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,11 +53,5 @@ public class principal extends AppCompatActivity {
                 startActivity(in3);
             }
         });
-    }
-
-    private void iniciarComponentes(){
-        bt_login = findViewById(R.id.btLogin);
-        bt_cadastro = findViewById(R.id.btCadastrar);
-        bt_sobre = findViewById(R.id.btSobre);
     }
 }
